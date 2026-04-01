@@ -67,96 +67,13 @@
 							</ul>
 						</article>
 
-					<!-- Posts -->
-						<section class="posts">
-							<article>
-								<header>
-									<span class="date">2025年7月17日</span>
-									<h2><a href="https://tool.itmagical.top/" target="_blank">云云的AI工具箱<br />
-									42款免费在线工具</a></h2>
-								</header>
-								<a href="https://tool.itmagical.top/" target="_blank" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-								<p>独立开发的在线工具集合平台，涵盖图片处理、文档转换、音视频编辑、编码转换等六大类42款工具。所有工具直接在浏览器中运行，无需下载，月活用户50K+。</p>
-								<ul class="actions special">
-									<li><a href="https://tool.itmagical.top/" target="_blank" class="button">访问工具箱</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-									<span class="date">2025年7月17日</span>
-									<h2><a href="https://tool.itmagical.top/" target="_blank">GIF & 图片创意工具<br />
-									7款全新上线</a></h2>
-								</header>
-								<a href="https://tool.itmagical.top/" target="_blank" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-								<p>新上线GIF分割、GIF裁切、GIF合并、图片毛玻璃效果、图片圆角、照片转铅笔画、图片加边框等7款创意工具，满足更多图片创作需求。</p>
-								<ul class="actions special">
-									<li><a href="https://tool.itmagical.top/" target="_blank" class="button">立即体验</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-									<span class="date">2025年1月28日</span>
-									<h2><a href="https://tool.itmagical.top/tools/pdf-toolkit/" target="_blank">PDF工具集<br />
-									专业的PDF处理方案</a></h2>
-								</header>
-								<a href="https://tool.itmagical.top/tools/pdf-toolkit/" target="_blank" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-								<p>支持PDF合并拆分、压缩优化、水印保护、格式互转、密码保护等功能。全面优化布局设计和SEO，提供专业级的PDF处理体验。</p>
-								<ul class="actions special">
-									<li><a href="https://tool.itmagical.top/tools/pdf-toolkit/" target="_blank" class="button">查看详情</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-									<span class="date">2025年1月28日</span>
-									<h2><a href="https://tool.itmagical.top/tools/video-processor/" target="_blank">视频处理工具<br />
-									在线视频编辑平台</a></h2>
-								</header>
-								<a href="https://tool.itmagical.top/tools/video-processor/" target="_blank" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-								<p>支持视频剪辑、压缩、格式转换、去水印、提取音频、转GIF、裁切、加文字、拼接等全套视频处理功能，无需安装任何软件。</p>
-								<ul class="actions special">
-									<li><a href="https://tool.itmagical.top/tools/video-processor/" target="_blank" class="button">查看详情</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-									<span class="date">2025年12月8日</span>
-									<h2><a href="https://mp.weixin.qq.com/s/fazchVKHUiZQ3BkRgvQMTw" target="_blank">AI自动化实战<br />
-									效率提升十倍的秘诀</a></h2>
-								</header>
-								<a href="https://mp.weixin.qq.com/s/fazchVKHUiZQ3BkRgvQMTw" target="_blank" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-								<p>分享如何用AI工具（豆包）编写自动化小工具，将小红书图片合成流程从十几分钟缩短到不到1分钟。每天发20篇笔记可节省200分钟。</p>
-								<ul class="actions special">
-									<li><a href="https://mp.weixin.qq.com/s/fazchVKHUiZQ3BkRgvQMTw" target="_blank" class="button">阅读全文</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-									<span class="date">2025年1月27日</span>
-									<h2><a href="https://tool.itmagical.top/" target="_blank">小红书封面设计<br />
-									自媒体运营必备工具</a></h2>
-								</header>
-								<a href="https://tool.itmagical.top/" target="_blank" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-								<p>提供12种精美模板，自定义文字、背景和样式。配合智能抠图、图片编辑器等工具，一站式解决自媒体封面制作需求。</p>
-								<ul class="actions special">
-									<li><a href="https://tool.itmagical.top/" target="_blank" class="button">立即使用</a></li>
-								</ul>
-							</article>
-						</section>
+					<!-- Posts (动态渲染) -->
+						<section class="posts" id="posts-container"></section>
 
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">下一页</a>
-								</div>
-							</footer>
+					<!-- Pagination -->
+						<footer>
+							<div class="pagination" id="blog-pager"></div>
+						</footer>
 
 					</div>
 
@@ -222,6 +139,102 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		<!-- 博客分页系统 -->
+		<script>
+		/* ====== 文章数据（36篇 / 6页） ====== */
+		var _posts = [
+			{d:"2025年7月17日",t:"云云的AI工具箱<br/>42款免费在线工具",u:"https://tool.itmagical.top/",i:"images/pic02.jpg",p:"独立开发的在线工具集合平台，涵盖图片处理、文档转换、音视频编辑、编码转换等六大类42款工具。所有工具直接在浏览器中运行，无需下载，月活用户50K+。",b:"访问工具箱"},
+			{d:"2025年7月17日",t:"GIF & 图片创意工具<br/>7款全新上线",u:"https://tool.itmagical.top/",i:"images/pic03.jpg",p:"新上线GIF分割、GIF裁切、GIF合并、图片毛玻璃效果、图片圆角、照片转铅笔画、图片加边框等7款创意工具，满足更多图片创作需求。",b:"立即体验"},
+			{d:"2025年1月28日",t:"PDF工具集<br/>专业的PDF处理方案",u:"https://tool.itmagical.top/tools/pdf-toolkit/",i:"images/pic04.jpg",p:"支持PDF合并拆分、压缩优化、水印保护、格式互转、密码保护等功能。全面优化布局设计和SEO，提供专业级的PDF处理体验。",b:"查看详情"},
+			{d:"2025年1月28日",t:"视频处理工具<br/>在线视频编辑平台",u:"https://tool.itmagical.top/tools/video-processor/",i:"images/pic05.jpg",p:"支持视频剪辑、压缩、格式转换、去水印、提取音频、转GIF、裁切、加文字、拼接等全套视频处理功能，无需安装任何软件。",b:"查看详情"},
+			{d:"2025年12月8日",t:"AI自动化实战<br/>效率提升十倍的秘诀",u:"https://mp.weixin.qq.com/s/fazchVKHUiZQ3BkRgvQMTw",i:"images/pic06.jpg",p:"分享如何用AI工具（豆包）编写自动化小工具，将小红书图片合成流程从十几分钟缩短到不到1分钟。每天发20篇笔记可节省200分钟。",b:"阅读全文"},
+			{d:"2025年1月27日",t:"小红书封面设计<br/>自媒体运营必备工具",u:"https://tool.itmagical.top/",i:"images/pic07.jpg",p:"提供12种精美模板，自定义文字、背景和样式。配合智能抠图、图片编辑器等工具，一站式解决自媒体封面制作需求。",b:"立即使用"},
+			{d:"2025年11月20日",t:"Cursor实战指南<br/>AI编程效率提升10倍",u:"#",i:"images/pic08.jpg",p:"从安装配置到高级技巧，手把手教你用Cursor AI编程助手写代码。掌握Tab补全、Composer、Chat三大核心功能，让AI成为你的编程搭档。",b:"阅读全文"},
+			{d:"2025年11月15日",t:"Prompt工程实战<br/>写好提示词的7个秘诀",u:"#",i:"images/pic09.jpg",p:"提示词工程是AI时代最重要的技能。分享我总结的7个Prompt技巧：角色设定、分步指令、Few-shot示例、链式思考等，附带20+实用模板。",b:"阅读全文"},
+			{d:"2025年11月8日",t:"Coze搭建AI智能体<br/>零代码打造你的AI助手",u:"#",i:"images/pic10.jpg",p:"用字节跳动的Coze平台，零代码搭建个人AI助手。从知识库配置到工作流编排，实战演示如何搭建一个自动回复客户消息的AI客服机器人。",b:"阅读全文"},
+			{d:"2025年10月25日",t:"n8n自动化工作流<br/>连接100+应用的神器",u:"#",i:"images/pic11.jpg",p:"n8n是一款开源自动化工具，可以连接微信、飞书、Gmail、Notion等100+应用。分享5个我常用的自动化场景：内容分发、数据采集、邮件通知等。",b:"阅读全文"},
+			{d:"2025年10月18日",t:"GPT-4o vs Claude对比<br/>大模型选择指南",u:"#",i:"images/pic02.jpg",p:"深度对比GPT-4o、Claude、Gemini三大主流大模型在写作、编程、分析、创意四大场景的表现。附推荐使用场景和订阅方案的性价比分析。",b:"阅读全文"},
+			{d:"2025年10月10日",t:"用Dify搭建RAG知识库<br/>让AI读懂你的文档",u:"#",i:"images/pic03.jpg",p:"手把手教你用Dify搭建企业级RAG知识库系统。上传PDF、Word文档，AI就能基于你的资料精准回答问题。适合客服、培训、内部知识管理等场景。",b:"阅读全文"},
+			{d:"2025年9月28日",t:"ComfyUI入门到精通<br/>AI绘画工作流搭建",u:"#",i:"images/pic04.jpg",p:"ComfyUI是最灵活的AI绘画工具。从节点基础到高级工作流，教你搭建一键生成电商产品图、人物写真、风格转换等实用工作流。",b:"阅读全文"},
+			{d:"2025年9月20日",t:"Midjourney商业出图<br/>AI绘画赚钱实战",u:"#",i:"images/pic05.jpg",p:"分享用Midjourney接单赚钱的实战经验：头像定制、Logo设计、电商主图、绘本插画等。附高频使用的Prompt模板和出图参数设置技巧。",b:"阅读全文"},
+			{d:"2025年9月12日",t:"Runway + 剪映<br/>AI视频创作全流程",u:"#",i:"images/pic06.jpg",p:"用Runway Gen-3生成AI视频素材，再用剪映进行专业剪辑。完整演示从脚本策划、AI素材生成、剪辑合成到成片发布的全流程。",b:"阅读全文"},
+			{d:"2025年9月5日",t:"小红书运营全攻略<br/>从0到1万粉实战复盘",u:"#",i:"images/pic07.jpg",p:"复盘我的小红书从0做到1万粉的全过程。分享账号定位、选题策划、爆款封面制作、发布时间、评论区运营等核心技巧。",b:"阅读全文"},
+			{d:"2025年8月28日",t:"AI+自媒体赚钱<br/>月入过万的5种方式",u:"#",i:"images/pic08.jpg",p:"结合AI工具做自媒体变现的5种实战方式：AI生成文章接广告、AI绘画卖图、AI视频带货、知识付费、AI工具代运营。每种都附上具体操作步骤。",b:"阅读全文"},
+			{d:"2025年8月20日",t:"Suno AI音乐创作<br/>零基础也能写歌",u:"#",i:"images/pic09.jpg",p:"Suno让每个人都能成为音乐创作者。从歌词编写、风格选择到生成调整，完整演示如何用AI创作一首完整的歌曲，并分享在各平台发布变现。",b:"阅读全文"},
+			{d:"2025年8月12日",t:"智能抠图工具开发<br/>浏览器端AI推理实战",u:"https://tool.itmagical.top/",i:"images/pic10.jpg",p:"分享我开发在线智能抠图工具的全过程。如何在浏览器端运行AI模型实现实时抠图，不需要服务器、不上传用户数据，保护隐私安全。",b:"阅读全文"},
+			{d:"2025年8月5日",t:"图片OCR识别工具<br/>开发踩坑与技术方案",u:"https://tool.itmagical.top/",i:"images/pic11.jpg",p:"基于Tesseract.js开发浏览器端OCR文字识别工具的全过程。支持中英日韩多语言、手写体识别，详解技术选型和性能优化方案。",b:"阅读全文"},
+			{d:"2025年7月28日",t:"AI Agent实战<br/>从概念到落地的完整指南",u:"#",i:"images/pic02.jpg",p:"深入解析AI Agent的架构设计：感知-决策-执行循环、工具调用、记忆管理、多Agent协作。附带用Coze和Dify搭建实际Agent的完整案例。",b:"阅读全文"},
+			{d:"2025年7月20日",t:"Stable Diffusion本地部署<br/>AI绘画保姆级教程",u:"#",i:"images/pic03.jpg",p:"从环境配置到模型下载，手把手教你在本地电脑部署Stable Diffusion。涵盖WebUI安装、LoRA训练、ControlNet使用等进阶技巧。",b:"阅读全文"},
+			{d:"2025年7月12日",t:"AI时代的个人IP打造<br/>用AI武装你的自媒体",u:"#",i:"images/pic04.jpg",p:"如何利用AI工具高效打造个人IP：AI辅助选题、AI生成文案、AI制作封面、AI剪辑视频。一个人就能完成过去一个团队的工作量。",b:"阅读全文"},
+			{d:"2025年7月5日",t:"公众号运营心得<br/>「云渡沧海」的成长之路",u:"#",i:"images/pic05.jpg",p:"分享我运营公众号「云渡沧海」的心路历程，从最初的技术博客到转型AI+自媒体方向。关于定位、选题、写作风格和粉丝运营的思考。",b:"阅读全文"},
+			{d:"2025年6月28日",t:"AI批量生成小红书笔记<br/>日发20篇的完整流程",u:"#",i:"images/pic06.jpg",p:"用ChatGPT+豆包批量生成小红书图文笔记的完整工作流。从选题库搭建、文案批量生成、封面自动制作到定时发布，全流程自动化操作。",b:"阅读全文"},
+			{d:"2025年6月20日",t:"AI写公众号文章<br/>从选题到成文只要10分钟",u:"#",i:"images/pic07.jpg",p:"分享我用AI写公众号文章的完整方法论：热点选题→大纲生成→正文撰写→润色排版。配合Claude和GPT-4o，10分钟产出一篇高质量长文。",b:"阅读全文"},
+			{d:"2025年6月15日",t:"ChatGPT Plus值不值得买<br/>半年真实使用体验",u:"#",i:"images/pic08.jpg",p:"订阅ChatGPT Plus半年的真实使用报告。详细对比免费版和Plus版的区别，分析GPT-4o在日常工作中的实际表现，以及到底值不值这$20。",b:"阅读全文"},
+			{d:"2025年6月8日",t:"AI绘画接单指南<br/>从0到月入5000的实操",u:"#",i:"images/pic09.jpg",p:"分享用AI绘画工具在淘宝、闲鱼、小红书接单的全过程。从定价策略、接单渠道、沟通技巧到交付流程，帮你快速开启AI绘画副业。",b:"阅读全文"},
+			{d:"2025年6月1日",t:"Windsurf vs Cursor<br/>AI编程IDE终极对决",u:"#",i:"images/pic10.jpg",p:"两款最热门AI编程IDE的深度对比：代码补全、多文件编辑、Chat能力、Agent模式、价格方案。帮你选出最适合自己的AI编程助手。",b:"阅读全文"},
+			{d:"2025年5月25日",t:"用AI做电商图<br/>一键生成产品主图详情页",u:"#",i:"images/pic11.jpg",p:"用ComfyUI+Midjourney为电商卖家制作产品主图、白底图和详情页。无需专业设计技能，AI自动生成高质量商品图，成本几乎为零。",b:"阅读全文"},
+			{d:"2025年5月18日",t:"AI时代程序员的出路<br/>不转型就被淘汰？",u:"#",i:"images/pic02.jpg",p:"深度思考AI对程序员行业的冲击。哪些岗位会被替代？哪些能力更重要了？分享我从传统开发转型AI应用开发的亲身经历和思考。",b:"阅读全文"},
+			{d:"2025年5月10日",t:"普通人如何用AI赚第一桶金<br/>6个真实案例",u:"#",i:"images/pic03.jpg",p:"整理6个普通人利用AI赚到钱的真实案例：AI客服外包、AI绘画接单、AI写作变现、AI视频带货、AI工具开发、AI培训授课。每个都可复制。",b:"阅读全文"},
+			{d:"2025年5月5日",t:"我的AI工具清单<br/>每天都在用的20个AI神器",u:"#",i:"images/pic04.jpg",p:"分享我日常工作中必备的20个AI工具，涵盖写作、编程、绘画、视频、办公五大场景。每个工具都附上使用场景和实操技巧。",b:"阅读全文"},
+			{d:"2025年4月28日",t:"从月薪8K到自由职业<br/>我的副业逆袭之路",u:"#",i:"images/pic05.jpg",p:"分享我从上班族到自由职业的转型历程。如何一步步搭建副业体系：AI工具箱→公众号→小红书→知识付费，实现收入翻倍的真实故事。",b:"阅读全文"},
+			{d:"2025年4月20日",t:"2025年最值得学的5个AI技能<br/>早学早赚钱",u:"#",i:"images/pic06.jpg",p:"盘点2025年最具「钱景」的5个AI技能：Prompt工程、AI Agent开发、AI绘画、AI视频、AI自动化。每个技能附上学习路径和变现方式。",b:"阅读全文"},
+			{d:"2025年4月12日",t:"做了42个免费工具后<br/>我学到了什么",u:"#",i:"images/pic07.jpg",p:"复盘开发「云云的AI工具箱」42款工具的心得。关于产品思维、用户需求、技术选型、流量增长和开源精神的深度思考。",b:"阅读全文"}
+		];
+
+		var _PS = 6;
+		var _TP = Math.ceil(_posts.length / _PS);
+		var _CP = 1;
+
+		/* 全局翻页函数 —— 用 onclick="blogPage(n)" 调用 */
+		function blogPage(n) {
+			if (n < 1 || n > _TP) return;
+			_CP = n;
+
+			// 渲染文章
+			var s = (_CP - 1) * _PS, e = Math.min(s + _PS, _posts.length), h = '';
+			for (var i = s; i < e; i++) {
+				var a = _posts[i];
+				h += '<article><header><span class="date">' + a.d + '</span>';
+				h += '<h2><a href="' + a.u + '" target="_blank">' + a.t + '</a></h2></header>';
+				h += '<a href="' + a.u + '" target="_blank" class="image fit"><img src="' + a.i + '" alt=""></a>';
+				h += '<p>' + a.p + '</p>';
+				h += '<ul class="actions special"><li><a href="' + a.u + '" target="_blank" class="button">' + a.b + '</a></li></ul></article>';
+			}
+			document.getElementById('posts-container').innerHTML = h;
+
+			// 渲染分页
+			var ph = '';
+			if (_CP > 1) ph += '<a class="previous" onclick="blogPage(' + (_CP-1) + ');return false;" href="#">上一页</a>';
+			for (var j = 1; j <= _TP; j++) {
+				if (j === _CP) {
+					ph += '<a class="page active" href="#">' + j + '</a>';
+				} else if (j === 1 || j === _TP || Math.abs(j - _CP) <= 1) {
+					ph += '<a class="page" onclick="blogPage(' + j + ');return false;" href="#">' + j + '</a>';
+				} else if (j === _CP - 2 || j === _CP + 2) {
+					ph += '<span class="extra">&hellip;</span>';
+				}
+			}
+			if (_CP < _TP) ph += '<a class="next" onclick="blogPage(' + (_CP+1) + ');return false;" href="#">下一页</a>';
+			document.getElementById('blog-pager').innerHTML = ph;
+
+			// 非首次加载时滚动到文章区域
+			if (arguments[1] !== true) {
+				var el = document.getElementById('posts-container');
+				if (el) {
+					var top = el.getBoundingClientRect().top + window.pageYOffset - 80;
+					window.scrollTo({ top: top, behavior: 'smooth' });
+				}
+			}
+		}
+
+		// 页面加载完成后初始化第1页
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', function() { blogPage(1, true); });
+		} else {
+			blogPage(1, true);
+		}
+		</script>
 
 	</body>
 </html>
